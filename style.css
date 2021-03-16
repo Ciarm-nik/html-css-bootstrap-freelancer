@@ -1,0 +1,9 @@
+[class^=col-] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+}
+
+.ms_height {
+    height: 200px;
+}
