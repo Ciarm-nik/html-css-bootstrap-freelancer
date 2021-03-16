@@ -12,3 +12,7 @@
 .ms_height_100 {
     height: 100px;
 }
+
+.border_red {
+    border:2px solid red;
+}
