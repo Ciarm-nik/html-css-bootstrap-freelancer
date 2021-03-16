@@ -4,6 +4,10 @@
     border: 1px solid black;
 }
 
-.ms_height {
+.ms_height_200 {
     height: 200px;
+}
+
+.ms_height_100 {
+    height: 100px;
 }
