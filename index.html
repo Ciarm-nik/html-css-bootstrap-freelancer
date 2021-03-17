@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap-Freelancer</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -34,11 +34,11 @@
                 <div class="row">
                     <div class="col-xs-6 col-xs-offset-3">
                         <div class="box">
-                            <img src="img/avatar.svg" alt="">
+                            <img class="center-block" src="img/avatar.svg" alt="">
                         </div>
-                        <h1>START BOOTSTRAP</h1>
-                        <img src="img/white.png" alt="">
-                        <ul class="list-unstyled list-inline ">
+                        <h1 class="text-center">START BOOTSTRAP</h1>
+                        <img class="padding_bottom center-block" src="img/white.png" alt="">
+                        <ul class="list-unstyled list-inline text-center ">
                             <li>GRAPHIC ARTIST</li>
                             <li>WEB DESIGNER</li>
                             <li>ILLUSTRATOR</li>
@@ -46,7 +46,6 @@
                     </div>
                 </div>
             </div>
-
         </section>
                           <!-- Seconda section 1 row + 7 colonne  -->
         <section class="padding_bottom ">
@@ -82,8 +81,8 @@
             <div class="container">
                 <div class="row border_red">
                     <div class="col-xs-12">
-                        <h2>ABOUT</h2>
-                        <img src="img/white.png" alt="">
+                        <h2 class="text-center">ABOUT</h2>
+                        <img class="center-block" src="img/white.png" alt="">
                     </div>
                     <div class="col-md-10 col-md-offset-1">
                         <div class="row">
@@ -98,15 +97,26 @@
                            <!-- Quarta section 1 row + 3 colonne -->
         <section>
             <div class="container">
-                <div class="row border_red">
-                    <div class="col-xs-12">Contact me</div>
-                    <div class="col-xs-12"><ul>
-                        <li>Name</li>
-                        <li>Email</li>
-                        <li>Phone</li>
-                        <li>Message</li>
-                    </ul></div>
-                    <div class="col-xs-12">Button send</div>
+                <div class="row">
+                   <h2 class="text-center" >CONTACT ME</h2>
+                   <img class="center-block" src="img/blue.png" alt="">
+                   <div class="col-md-10 col-md-offset-1">
+                       <form>
+                        <div class="form-group">
+                            <input type="name" class="form-control" id="exampleInputEmail1" placeholder="name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address">
+                        </div>
+                        <div class="form-group">
+                            <input type="phone" class="form-control" id="exampleInputEmail1" placeholder="Phone number">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" >Message</textarea>
+                        </div>
+                        <button class="btn btn_green">Send</button>
+                       </form>
+                   </div>
                 </div>
             </div>
         </section>
@@ -114,7 +124,7 @@
                             <!-- Footer 1 row + 4 colonne -->
     <footer>
         <div class="container">
-            <div class="row border_red">
+            <div class="row">
                 <div class="col-xs-12 col-sm-4 col-md-4">Location</div>
                 <div class="col-xs-12 col-sm-4 col-md-4">Around the web</div>
                 <div class="col-xs-12 col-sm-4 col-md-4">About freelancer</div>
